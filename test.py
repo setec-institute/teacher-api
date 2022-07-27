@@ -1,6 +1,3 @@
-x = 5
-y = 3
+import random
 
-z = x + y
-
-print(z)
+print(random.randrange(1, 5))
