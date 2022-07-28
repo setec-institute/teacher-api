@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-# from flask import Flask, render_template, request
 from flask_mysqldb import MySQL
 from passlib.handlers import mysql
 from ruamel import yaml
