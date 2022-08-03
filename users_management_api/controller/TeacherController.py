@@ -7,8 +7,7 @@ def getAllTeacher():
     lists = []
     for teacher in teachers:
         lists.append(teacher.toDict())
-        return jsonify({"CODE": "000", "MESSAGE": "OK", "DATA": lists})
+        return jsonify({"CODE": "000", "MESSAGE": "OK This is Python API"})
 
 
-if __name__ == '__main__':
-    app.run()
+
