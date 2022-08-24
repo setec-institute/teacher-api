@@ -1,6 +1,6 @@
-from users_management_api.controller.TeacherController import *
+from controller.TeacherController import *
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
-
 
