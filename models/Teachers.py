@@ -1,5 +1,6 @@
 from config.ConnectionDb import *
 
+
 class Teachers(db.Model):
     teacher_id = db.Column(db.String, nullable=False, primary_key=True)
     teacher_name = db.Column(db.String(100), nullable=True)
